@@ -1,0 +1,580 @@
+--drop table T_HNMap_ProjInfo
+
+--select * from T_HNMap_ProjInfo
+CREATE TABLE T_HNMap_ProjInfo(
+	ID nvarchar(50) NOT NULL,
+	ProjCode nvarchar(100) NULL,
+	ProjName nvarchar(128) NULL,
+	CityCode nvarchar(50) NULL,
+	CityName nvarchar(50) NULL,
+	ProjStatus nvarchar(2) NULL,
+	ProjAreas float NULL,
+	ProjBuildingNum int NULL,
+	IsSocialHousingProj nvarchar(2) NULL,
+	IsAssembledProj nvarchar(2) NULL,
+	ProjScale nvarchar(2) NULL,
+	IsBuildingProj nvarchar(2) NULL,
+	IsCivilProj nvarchar(2) NULL,
+	CheckStatistics nvarchar(2) NULL,
+	PositionInfo  nvarchar(100) NULL,
+	IsSync nvarchar(2) NULL,
+	CREATETIME datetime NULL,
+	CREATEBY nvarchar(100) NULL,
+	UPDATETIME datetime NULL,
+	UPDATEBY nvarchar(100) NULL,
+	DeletionStateCode nvarchar(2) NULL
+	)
+GO
+
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0100'
+           ,'测试项目1'
+		   ,'460100000000'
+		   ,'海口市'
+           ,'1'
+		   ,'111000.56'
+		   ,500
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0102'
+           ,'测试项目2'
+		   ,'460100000000'
+		   ,'海口市'
+           ,'1'
+		   ,'134300.56'
+		   ,3000
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0103'
+           ,'测试项目3'
+		   ,'460100000000'
+		   ,'海口市'
+           ,'2'
+		   ,'12320.56'
+		   ,2000
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0104'
+           ,'测试项目4'
+		   ,'460100000000'
+		   ,'海口市'
+           ,'1'
+		   ,'3434340.56'
+		   ,2300
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0105'
+           ,'测试项目5'
+		   ,'460100000000'
+		   ,'海口市'
+           ,'1'
+		   ,'23220.56'
+		   ,50
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0106'
+           ,'测试项目6'
+		   ,'460200000000'
+		   ,'三亚市'
+           ,'1'
+		   ,'8953.56'
+		   ,5005
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0107'
+           ,'测试项目7'
+		   ,'460200000000'
+		   ,'三亚市'
+           ,'1'
+		   ,'341000.56'
+		   ,4500
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0108'
+           ,'测试项目8'
+		   ,'460200000000'
+		   ,'三亚市'
+           ,'1'
+		   ,'561000.56'
+		   ,8500
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0900'
+           ,'测试项目9'
+		   ,'460200000000'
+		   ,'三亚市'
+           ,'1'
+		   ,'7890.56'
+		   ,9500
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0110'
+           ,'测试项目10'
+		   ,'460200000000'
+		   ,'三亚市'
+           ,'1'
+		   ,'895'
+		   ,30
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-0111'
+           ,'测试项目11'
+		   ,'460300000000'
+		   ,'三沙市'
+           ,'1'
+		   ,'56345543'
+		   ,3500
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO
+
+INSERT INTO dbo.T_HNMap_ProjInfo
+           (ID
+           ,ProjCode
+           ,ProjName
+		   ,CityCode
+		   ,CityName
+           ,ProjStatus
+		   ,ProjAreas
+		   ,ProjBuildingNum
+           ,IsSocialHousingProj
+           ,IsAssembledProj
+           ,ProjScale
+           ,IsBuildingProj
+           ,IsCivilProj
+           ,CheckStatistics
+           ,PositionInfo
+           ,IsSync
+           ,CREATETIME
+           ,CREATEBY
+           ,UPDATETIME
+           ,UPDATEBY
+           ,DeletionStateCode)
+     VALUES
+           (NEWID()
+           ,'2020-469005-70-03-015812-011232'
+           ,'测试项目1232'
+		   ,'460300000000'
+		   ,'三沙市'
+           ,'1'
+		   ,4587.6598474
+		   ,500
+           ,'1'
+           ,'0'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,'1'
+           ,''
+           ,'1'
+           ,'2022-01-20'
+           ,'TY'
+           ,''
+           ,''
+           ,'0')
+GO

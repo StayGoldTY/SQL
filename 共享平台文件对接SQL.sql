@@ -1,0 +1,12 @@
+select * from QGC2_EXCHANGE_HN_ZWFW_YWBJ  where gcdm = '2020-469005-70-03-015812-0100'
+
+select * from QGC2_EXCHANGE_HN_ZWFW_YWBJ_CL where bj_Id = '002d313e19cd4cbeb06b723739717d93'
+
+SELECT  ID,FILE_NAME,EXTENTION,OBJECT_ID,BLOB_CONTENT_URL FROM QGC2_EXCHANGE_HN_ZWFW_FILE a
+where a.OBJECT_ID 
+in (select b.id from QGC2_EXCHANGE_HN_ZWFW_YWBJ_CL b where b.bj_Id in 
+(select c.id from QGC2_EXCHANGE_HN_ZWFW_YWBJ c where c.gcdm = '2020-469005-70-03-015812-0100'
+))
+
+
+http://59.212.146.85:8088/xzsp/downloadFileWssp.do?id=3d3e17881bc1471db4ad666a64d7d5d7
